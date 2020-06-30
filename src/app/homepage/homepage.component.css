@@ -1,0 +1,14 @@
+.selected{
+    background-color: aqua;
+}
+
+.edited{
+    background-color: rgb(171, 171, 187);
+}
+
+.pull-right {
+    float: right !important;
+}
+.top-margin{
+    margin-top: 8px;
+}

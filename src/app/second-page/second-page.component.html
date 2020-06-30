@@ -1,0 +1,39 @@
+<br><br>
+<div class="row">
+  <div class="col-lg-4"></div>
+  <div class="col-lg-6">
+    <form action="" #frm="ngForm">
+      <h3>Registration</h3>
+      <table>
+        <tr>
+          <td>User name</td>
+          <td><input [(ngModel)]="user.userName" class="form-control" type="text" name="userName"></td>
+        </tr>
+        <tr>
+          <td>password</td>
+          <td><input [(ngModel)]="user.password" class="form-control" type="password" name="password"></td>
+        </tr>
+        <tr>
+          <td>confirm password</td>
+          <td><input class="form-control" type="password" name="password"></td>
+        </tr>
+        <tr>
+          <td>email</td>
+          <td><input [(ngModel)]="user.email" class="form-control" type="text" name="email"></td>
+        </tr>
+        <tr>
+          <td>contact No</td>
+          <td><input [(ngModel)]="user.contactNo" class="form-control" type="text" name="contactNo"></td>
+        </tr>
+        <tr>
+          <td>address</td>
+          <td><input [(ngModel)]="user.address" class="form-control" type="text" name="address"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button class="btn btn-light" (click)="gotoLogin()">Cancel</button>&nbsp;<button class="btn btn-primary" (click)="saveData()">save</button></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div>
